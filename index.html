@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EVAN | Voting & Tracker Hub</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts for sleek typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation / Header -->
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <h1>EVAN <span>VOTING HUB</span></h1>
+      </div>
+      <nav class="nav">
+        <a href="#voting">Active Votes</a>
+        <a href="#guides">Guides</a>
+        <a href="#schedule">Schedule</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <span class="badge">Official Fan Tracker</span>
+      <h2>Support EVAN's Next Victory</h2>
+      <p>Stay up to date with ongoing music shows, award polls, and daily voting tasks.</p>
+    </div>
+  </section>
+
+  <!-- Main Content Grid -->
+  <main class="container main-content">
+    
+    <!-- Active Voting Section -->
+    <section id="voting" class="section">
+      <div class="section-title">
+        <h3>🔥 Active Voting & Polls</h3>
+        <p>Check back daily to cast your votes before deadlines end!</p>
+      </div>
+      <div id="voting-grid" class="grid">
+        <!-- Cards injected dynamically via JS -->
+      </div>
+    </section>
+
+    <!-- Guides Section -->
+    <section id="guides" class="section">
+      <div class="section-title">
+        <h3>📖 Voting Guides</h3>
+        <p>Step-by-step instructions on how to collect hearts/votes and vote correctly.</p>
+      </div>
+      <div id="guides-grid" class="grid">
+        <!-- Guides injected dynamically via JS -->
+      </div>
+    </section>
+
+    <!-- Daily Schedule / Reminders -->
+    <section id="schedule" class="section">
+      <div class="section-title">
+        <h3>📅 Daily Routine & Reminders</h3>
+      </div>
+      <div class="card schedule-card">
+        <ul id="routine-list" class="checklist">
+          <!-- Checklist injected dynamically via JS -->
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>Created with support for <strong>EVAN</strong>. Updated daily by fans.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
